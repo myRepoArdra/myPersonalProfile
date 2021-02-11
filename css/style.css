@@ -12,8 +12,12 @@
 }
 .myProfile{
     padding-top:100px; 
+    font-weight:bold;
 }
+.title p{
+    color:rgb(190, 185, 185);
 
+}
 .userBox img{
    border-left: 15px solid#3dbeb0;
     border-bottom: 15px solid#3dbeb0;
@@ -83,7 +87,7 @@
 .colored_Text {
     color: #3dbeb0;
 }
-.about-title,.portfolio-title {
+.about-title,.portfolio-title,.contact-title {
     text-transform: uppercase;
     font-weight: 700;
     color: #727478;
@@ -91,6 +95,8 @@
 
 .myPortfolio{
     padding:100px, 0;
+    margin-bottom:50px;
+
 }
  .myPortfolio h2{
     padding-bottom: 60px;
@@ -99,8 +105,7 @@
     width:100%;
     border-radius:30px;
     cursor: pointer;
-    transition:1s;
-   
+    transition:1s; 
 }
 .portfolioBox img:hover{
     transform:scale(1.1);
@@ -124,4 +129,18 @@
     margin-bottom:30px;
 }
 
+
+@media only screen and (max-width: 770px) {
+    
+    .title h1{
+        padding-top:30px;
+    }
+    .description{
+        text-align:left;
+    }
+    
+
+
+    
+}
 
