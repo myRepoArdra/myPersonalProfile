@@ -6,22 +6,20 @@
 
 #header{
     height: 100vh;
-    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(/images/bg-body.jpg);
-
-    background-position:center;
-   
+    background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) ,url(../images/bg-body.jpg);
+    background-position:center;  
     background-attachment: fixed;
 }
-.userBox{
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
-    position:absolute;
+.myProfile{
+    padding-top:100px; 
 }
+
 .userBox img{
-    border-radius: 50%;
-    width:250px;
-    border:2px solid #242122;
+   border-left: 15px solid#3dbeb0;
+    border-bottom: 15px solid#3dbeb0;
+    border-right: 15px solid #727478;
+    border-top: 15px solid#727478;
+    width:225px;
 }
 .userBox h1{
     color:#fff;
@@ -51,4 +49,79 @@
 .navbar-toggler{
      outline:none !important;
 }
+.navbar-nav{
+  float:right;
+  text-align:right;  
+}
+
+.nav-link{
+    color:#fff  !important;
+}
+
+ #about-me
+{
+    padding-top: 100px;
+    
+    margin-bottom:100px;
+} 
+
+ .description {
+    background-color: rgba(248, 248, 248);
+    color:rgb(100, 99, 99);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: large;
+    font-weight: 400;
+    line-height: 2;
+    word-break: keep-all;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 80vw;
+}
+.colored_Text {
+    color: #3dbeb0;
+}
+.about-title,.portfolio-title {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #727478;
+}
+
+.myPortfolio{
+    padding:100px, 0;
+}
+ .myPortfolio h2{
+    padding-bottom: 60px;
+} 
+.portfolioBox img{
+    width:100%;
+    border-radius:30px;
+    cursor: pointer;
+    transition:1s;
+   
+}
+.portfolioBox img:hover{
+    transform:scale(1.1);
+}
+
+.portfolioBox h4{
+    display:block;
+    text-align:center;
+    font-weight: 600;
+    font-size:25px;
+    position: absolute;
+    top:30%;
+    left:50%;
+    color:white;
+    text-shadow:-2px 2px 2px  #000;
+    transform:translate(-50%,-50%);
+    
+}
+.portfolioBox {
+    position:relative;
+    margin-bottom:30px;
+}
+
 
