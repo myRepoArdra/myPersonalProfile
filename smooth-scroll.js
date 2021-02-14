@@ -249,7 +249,7 @@
 		if (clip) {
 			location = Math.min(location, getDocumentHeight() - window.innerHeight);
 		}
- 		return location;
+		return location;
 	};
 
 	/**
@@ -344,7 +344,7 @@
 			anchor.focus();
 			anchor.style.outline = 'none';
 		}
-		window.scrollTo(0 , endLocation);
+		window.scrollTo(0, endLocation);
 
 	};
 
@@ -505,7 +505,7 @@
 
 			// Check if event.target has closest() method
 			// By @totegi - https://github.com/cferdinandi/smooth-scroll/pull/401/
-			if(!('closest' in event.target))return;
+			if (!('closest' in event.target)) return;
 
 			// Check if a smooth scroll link was clicked
 			toggle = event.target.closest(selector);
@@ -553,7 +553,7 @@
 			}
 
 			// Animate scroll to anchor link
-			smoothScroll.animateScroll(anchor, null, {updateURL: false});
+			smoothScroll.animateScroll(anchor, null, { updateURL: false });
 
 		};
 

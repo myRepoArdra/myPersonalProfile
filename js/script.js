@@ -1,3 +1,3 @@
-const smoothScroll = require("./smooth-scroll");
 
-var scroll = new smoothScroll('a[href*="#"]');
+
+/* var scroll = new SmoothScroll('a[href*="#"]'); */

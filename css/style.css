@@ -11,6 +11,7 @@
     background-attachment: fixed;
 }
 .myProfile{
+   
     padding-top:100px; 
     font-weight:bold;
 }
@@ -66,7 +67,7 @@
 {
     padding-top: 100px;
     
-    margin-bottom:100px;
+   
 } 
 
  .description {
@@ -94,40 +95,24 @@
 }
 
 .myPortfolio{
-    padding:100px, 0;
-    margin-bottom:50px;
-
+    margin-top: -100px;
+    padding-top: 25px;
+    margin-bottom:100px;
 }
  .myPortfolio h2{
     padding-bottom: 60px;
 } 
-.portfolioBox img{
-    width:100%;
-    border-radius:30px;
-    cursor: pointer;
-    transition:1s; 
+.single-item {
+  -webkit-transition: all 0.3 linear;
+  transition: all 0.3 linear;
 }
-.portfolioBox img:hover{
-    transform:scale(1.1);
+.single-item:hover {
+  -webkit-box-shadow: 0 10px 15px rgb(0, 0, 0);
+  box-shadow: 0 10px 15px rgb(0, 0, 0);
 }
 
-.portfolioBox h4{
-    display:block;
-    text-align:center;
-    font-weight: 600;
-    font-size:25px;
-    position: absolute;
-    top:30%;
-    left:50%;
-    color:white;
-    text-shadow:-2px 2px 2px  #000;
-    transform:translate(-50%,-50%);
-    
-}
-.portfolioBox {
-    position:relative;
-    margin-bottom:30px;
-}
+
+/* Contact Section */
 
 .myContact{
     padding-top:50px;
@@ -147,8 +132,6 @@
     
    
 }
-
-
 .myContact .btn{
     margin:5px 10px;
     
@@ -191,14 +174,17 @@
     padding-top:6px;
     margin-top:5px;
     color: #fff;
-    background:#000;
+     background:#000;
 }
 .social-icons ul li:hover{
     padding-left: 30px;
     width:80px;
     transition:1s;
+   
+    
 }
 
+/* Media Queries */
 @media only screen and (max-width: 770px) {
     
     .title h1{
@@ -206,10 +192,6 @@
     }
     .description{
         text-align:left;
-    }
-    
-
-
-    
+    }   
 }
 
