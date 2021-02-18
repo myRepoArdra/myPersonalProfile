@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 *{
     margin:0;
     padding:0;
@@ -110,6 +110,37 @@
   -webkit-box-shadow: 0 10px 15px rgb(0, 0, 0);
   box-shadow: 0 10px 15px rgb(0, 0, 0);
 }
+/* portfolio section  new changes*/
+.card-title{
+    position:relative;
+    overflow:hidden;
+   
+}
+.projectDetails{
+    position:absolute;
+    background-color: #5abfb1;
+    color:#fff;
+    font-size:20px;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    transform:translateX(100%);
+    text-align:center;
+    font-family:'Roboto', sans-serif !important;
+    font-weight:bold;
+    padding: 30px 10px;
+    
+}
+
+.card-title:hover .projectDetails{
+   transform: translateX(0%);
+
+}
+
+
+
+
 
 /* Contact Section & Footer */
 .myContact{
