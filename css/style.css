@@ -136,10 +136,6 @@
 
 }
 
-
-
-
-
 /* Contact Section & Footer */
 .myContact{
     padding-top:50px;
@@ -219,6 +215,19 @@
     .description{
         text-align:left;
     }
+    .projectDetails{
     
+    font-size:12px;
+    padding: 30px 0px;
+    
+}   
 }
+@media only screen and (max-width: 575px) {
+
+    .projectDetails{
+        font-size:20px;
+        padding: 30px 10px;  
+}
+}
+    
 
